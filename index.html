@@ -29,9 +29,13 @@
 
     h2 {
       color: #60a5fa;
-      margin-top: 60px;
-      margin-bottom: 15px;
+      margin-top: 70px;
+      margin-bottom: 20px;
       font-size: 32px;
+    }
+
+    h3 {
+      margin-top: 0;
     }
 
     p {
@@ -47,9 +51,14 @@
 
     .card {
       background-color: #1e293b;
-      padding: 20px;
-      border-radius: 12px;
+      padding: 25px;
+      border-radius: 14px;
       margin-bottom: 20px;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
     }
 
     ul {
@@ -69,7 +78,7 @@
     .skill-box {
       background-color: #1e293b;
       padding: 20px;
-      border-radius: 12px;
+      border-radius: 14px;
     }
 
     .skill-box h3 {
@@ -84,6 +93,29 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .contact-box {
+      background-color: #1e293b;
+      padding: 25px;
+      border-radius: 14px;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      font-size: 18px;
+    }
+
+    .hero {
+      padding-top: 30px;
+      padding-bottom: 20px;
+    }
+
+    .highlight {
+      color: #93c5fd;
+      font-weight: bold;
+    }
   </style>
 </head>
 
@@ -92,42 +124,71 @@
   <div class="container">
 
     <!-- HOME -->
-    <h1>Parin Dhayanidhi</h1>
+    <section class="hero">
 
-    <div class="subtitle">
-      Robotics Engineering Student at Worcester Polytechnic Institute (WPI)
-    </div>
+      <h1>Parin Dhayanidhi</h1>
 
-    <p>
-      I'm interested in robotics, engineering design, programming, CAD, and technology.
-      I enjoy building projects that combine software and hardware while continuing
-      to develop my technical and creative skills.
-    </p>
+      <div class="subtitle">
+        Robotics Engineering Student at Worcester Polytechnic Institute (WPI)
+      </div>
+
+      <p>
+        I'm a robotics engineering student focused on combining
+        <span class="highlight">engineering, programming, and design</span>
+        to build impactful technology projects.
+      </p>
+
+      <p>
+        My interests include robotics systems, mechanical design,
+        CAD modeling, software development, and emerging technology.
+        I'm continuously developing technical skills through engineering projects,
+        programming, and hands-on design work.
+      </p>
+
+    </section>
 
     <!-- PROJECTS -->
     <h2>Projects</h2>
 
     <div class="card">
       <h3>Kineticade</h3>
+
       <p>
-        AR fitness and gym engagement system designed to make workouts more interactive
-        through gamification and real-time feedback.
+        AR fitness and gym engagement platform designed to make workouts more interactive
+        using gamification, real-time feedback, and immersive technology experiences.
+      </p>
+
+      <p>
+        Focused on improving gym engagement and long-term retention through
+        interactive fitness experiences.
       </p>
     </div>
 
     <div class="card">
-      <h3>Robotics Projects</h3>
+      <h3>Robotics Programming Projects</h3>
+
       <p>
-        Robotics programming projects involving autonomous movement, sensors,
-        line tracking, and control systems.
+        Developed robotics projects involving autonomous movement,
+        sensor integration, line tracking, proportional control,
+        and state-machine-based behaviors.
+      </p>
+
+      <p>
+        Worked with Python-based robotics environments and embedded systems concepts.
       </p>
     </div>
 
     <div class="card">
       <h3>CAD & Engineering Design</h3>
+
       <p>
-        Mechanical part modeling, assemblies, technical drawings,
-        and engineering-focused SolidWorks projects.
+        Designed mechanical components, assemblies, and engineering drawings
+        using SolidWorks and engineering design workflows.
+      </p>
+
+      <p>
+        Experience includes part modeling, assemblies, dimensioning,
+        and technical documentation.
       </p>
     </div>
 
@@ -138,16 +199,18 @@
 
       <div class="skill-box">
         <h3>Engineering</h3>
+
         <ul>
           <li>Robotics</li>
           <li>Mechanical Design</li>
           <li>Control Systems</li>
-          <li>Problem Solving</li>
+          <li>Engineering Problem Solving</li>
         </ul>
       </div>
 
       <div class="skill-box">
         <h3>Programming</h3>
+
         <ul>
           <li>Python</li>
           <li>Java</li>
@@ -158,12 +221,36 @@
 
       <div class="skill-box">
         <h3>Tools & Software</h3>
+
         <ul>
           <li>SolidWorks</li>
           <li>VS Code</li>
           <li>GitHub</li>
           <li>FL Studio</li>
         </ul>
+      </div>
+
+    </div>
+
+    <!-- CONTACT -->
+    <h2>Contact</h2>
+
+    <div class="contact-box">
+
+      <div class="contact-links">
+
+        <a href="https://github.com/parin07dev" target="_blank">
+          GitHub
+        </a>
+
+        <a href="https://linkedin.com" target="_blank">
+          LinkedIn
+        </a>
+
+        <a href="mailto:your@email.com">
+          Email
+        </a>
+
       </div>
 
     </div>
