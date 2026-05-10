@@ -1,20 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Parin's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parin Dhayanidhi</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0f172a;
+      color: white;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 85%;
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    h1 {
+      font-size: 56px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #60a5fa;
+      margin-top: 60px;
+      margin-bottom: 15px;
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #d1d5db;
+    }
+
+    .subtitle {
+      font-size: 22px;
+      color: #93c5fd;
+      margin-bottom: 25px;
+    }
+
+    .card {
+      background-color: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-box {
+      background-color: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .skill-box h3 {
+      color: #93c5fd;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hi, I'm Parin</h1>
-  <p>I'm a Robotics Engineering student at WPI.</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Robotics projects</li>
-    <li>CAD projects</li>
-    <li>Programming projects</li>
-  </ul>
+  <div class="container">
 
-  <h2>Contact</h2>
-  <p>GitHub: yourusername</p>
+    <!-- HOME -->
+    <h1>Parin Dhayanidhi</h1>
+
+    <div class="subtitle">
+      Robotics Engineering Student at Worcester Polytechnic Institute (WPI)
+    </div>
+
+    <p>
+      I'm interested in robotics, engineering design, programming, CAD, and technology.
+      I enjoy building projects that combine software and hardware while continuing
+      to develop my technical and creative skills.
+    </p>
+
+    <!-- PROJECTS -->
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Kineticade</h3>
+      <p>
+        AR fitness and gym engagement system designed to make workouts more interactive
+        through gamification and real-time feedback.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Robotics Projects</h3>
+      <p>
+        Robotics programming projects involving autonomous movement, sensors,
+        line tracking, and control systems.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>CAD & Engineering Design</h3>
+      <p>
+        Mechanical part modeling, assemblies, technical drawings,
+        and engineering-focused SolidWorks projects.
+      </p>
+    </div>
+
+    <!-- SKILLS -->
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill-box">
+        <h3>Engineering</h3>
+        <ul>
+          <li>Robotics</li>
+          <li>Mechanical Design</li>
+          <li>Control Systems</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h3>Programming</h3>
+        <ul>
+          <li>Python</li>
+          <li>Java</li>
+          <li>HTML/CSS</li>
+          <li>C++ (Learning)</li>
+        </ul>
+      </div>
+
+      <div class="skill-box">
+        <h3>Tools & Software</h3>
+        <ul>
+          <li>SolidWorks</li>
+          <li>VS Code</li>
+          <li>GitHub</li>
+          <li>FL Studio</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
+
 </html>
